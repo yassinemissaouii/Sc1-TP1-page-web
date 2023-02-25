@@ -1,0 +1,143 @@
+body{
+    background: linear-gradient(to bottom , rgb(149, 12, 167) 1% , rgb(211, 100, 231) , rgb(228, 156, 240));
+
+}
+table{
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+}
+.cl1{
+    height: 50%;
+    width: 50%;
+}
+.cl2{
+    height: 50%;
+    width: 50%;
+}
+.group {
+    position: relative;
+  }
+  
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 120px 40px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .form p {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: white;
+  }
+  
+  .container-1 {
+    padding-top: 30px;
+  }
+  
+  .main-input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 185px;
+    border: none;
+    border-bottom: 1px solid #6c6c6c;
+    background: transparent;
+    color: #ffffff;
+  }
+  
+  .main-input:focus {
+    outline: none;
+    border-bottom-color: #42ff1c;
+  }
+  
+  .lebal-email {
+    color: #999999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .main-input:focus ~ .lebal-email,
+  .main-input:valid ~ .lebal-email {
+    top: -20px;
+    font-size: 14px;
+    color: #42ff1c;
+  }
+  
+  .highlight-span {
+    position: absolute;
+    height: 60%;
+    width: 0px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .main-input:focus ~ .highlight-span {
+    -webkit-animation: input-focus 0.3s ease;
+    animation: input-focus 0.3s ease;
+  }
+  
+  @keyframes input-focus {
+    from {
+      background: #42ff1c;
+    }
+  
+    to {
+      width: 185px;
+    }
+  }
+  button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(27, 187, 48);
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+   }
+   footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(149,12, 167);
+    color: white;
+   }
